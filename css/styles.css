@@ -1,5 +1,28 @@
-h1{
+ /* h1{
     color: blue;
     font-size: 60px;
     background-color: aqua;
+} */
+
+
+.heading1{
+            color:brown;
+            font-size: 50px;
+            background-color: aqua;
+        } 
+.heading2{
+    color:blueviolet;
+    font-size: 40px;
+}
+.heading3{
+background-color:burlywood;
+}
+.heading4{
+    color: blue;
+    font-size: 50px;
+}
+#heading5{
+    color: brown;
+    font-size: 30px;
+    background-color: chartreuse;
 }
