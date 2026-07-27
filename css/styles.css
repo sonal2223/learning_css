@@ -40,5 +40,43 @@ background-color:burlywood;
 }
 .b_properties2{
     border: 20px solid red;
-    border-color: blue;
+    border-radius: 40px;
+    width: 300px;
+}
+.b_properties3{
+     border: 20px solid pink;
+    border-radius: 50%;
+    width: 300px; 
+}
+.b_properties4{
+    border: 10px double brown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 300px;
+}
+.b_properties5{
+    border: 10px dotted brown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 300px;
+}
+.b_properties6{
+    border: 10px outset brown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 300px;
+}
+.b_properties7{
+    border: 10px inset brown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 300px;
 }
