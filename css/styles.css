@@ -5,7 +5,7 @@
 } */
 
 
-.heading1{
+/* .heading1{
             color:brown;
             font-size: 50px;
             background-color: aqua;
@@ -25,4 +25,20 @@ background-color:burlywood;
     color: brown;
     font-size: 30px;
     background-color: chartreuse;
+} */
+.b_properties{
+    border: 20px groove red;
+    width: 300px;
+}
+.b_properties1{
+    border: 20px solid yellow;
+    border-top-color: blue;
+    border-right-color: brown;
+    border-left-color: brown;
+    border-bottom-color: blue;
+    width: 300px;
+}
+.b_properties2{
+    border: 20px solid red;
+    border-color: blue;
 }
