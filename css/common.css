@@ -3,3 +3,11 @@
     background-color:bisque;
     font-size: 30px;
 } */
+       .f_family{
+        font-family: cursive;
+        font-size: 20px;
+       }
+       .f_family1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+       }
