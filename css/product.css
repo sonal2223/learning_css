@@ -3,3 +3,14 @@
     background-color: cornsilk;
     font-size: 40px;
 } */
+ .b_shadow{
+    box-shadow: 8px 10px 8px gray;
+ }
+
+ .b_shadow1{
+    box-shadow: 8px 10px 8px red;
+ }
+ .b_shadow2{
+    width: 300px;
+    filter: drop-shadow( 10px 8px 6px red);
+ }
