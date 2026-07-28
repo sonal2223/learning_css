@@ -44,12 +44,12 @@ background-color:burlywood;
     width: 300px;
 }
 .b_properties3{
-     border: 20px solid pink;
+     border: 20px solid blueviolet;
     border-radius: 50%;
     width: 300px; 
 }
 .b_properties4{
-    border: 10px double brown;
+    border: 10px double blue;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 30px;
@@ -65,7 +65,7 @@ background-color:burlywood;
     width: 300px;
 }
 .b_properties6{
-    border: 10px outset brown;
+    border: 10px outset orangered;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 30px;
@@ -73,7 +73,7 @@ background-color:burlywood;
     width: 300px;
 }
 .b_properties7{
-    border: 10px inset brown;
+    border: 10px inset violet;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 30px;
