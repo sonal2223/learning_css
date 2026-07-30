@@ -1,0 +1,50 @@
+.heading_1{
+    font-size: 70px;
+    text-align: center;
+    padding: 40px;
+    color: aliceblue;
+    
+}
+.bgImage{
+    background-image: url("../images/background\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading_2{
+    font-size: 40px;
+    color: cadetblue;
+}
+.h1{
+    color: blue;
+    font-size: 60px;
+}
+h1:hover{
+    color: crimson;
+    text-shadow: 5px 8px 4px yellow;
+    font-size: 100px;
+    background-color: black;
+}
+.heading_active:active{
+    color: blueviolet;
+    font-size: 40px;
+    cursor: pointer;
+}
+input:focus{
+    border: 20px solid crimson;
+    background-color: black;
+    color: aliceblue;
+}
+a:visited{
+    color: darkgreen;
+}
+p::first-letter{
+    color: coral;
+    font-size: 40px;
+}
+p::first-line{
+color: brown;
+}
+::selection{
+    color:red ;
+    background-color:pink ;
+}
