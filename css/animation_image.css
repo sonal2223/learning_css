@@ -1,0 +1,21 @@
+#a_image{
+    height: 400px;
+    width: 600px;
+    background-image: url(../images/image6.jpg);
+    position: relative; 
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-name: movingBox;
+    border: 30px groove royalblue;
+    box-shadow: 30px 40px 10px grey;
+    margin: 20px;
+}
+@keyframes movingBox{
+    0%{background-image: url(../images/image4.jpg); left: 0px;top: 0px;}
+    25%{background-image: url(../images/image8.jpg); left: 300px;top: 0px;}
+    50%{background-image: url(../images/image2.jpg); left: 300px;top: 300px;}
+    75%{background-image: url(../images/image11.jpg); left: 0px;top: 300px;}
+    100%{background-image: url(../images/image7.jpg); left: 0px;top: 0px;}
+}
