@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .linear{
+        height: 300px;
+        background: linear-gradient(to right, red, white, green);
+    }
+    h1{
+       color:blue;
+       text-align:center; 
+       padding: top 100px;
+    }
+    .radial{
+        height: 300px;
+        background: radial-gradient(circle at center, left top, red, white, green);
+    }
+
+    .r_image{
+        height: 200px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .conical{
+        height: 300px;
+        background:conic-gradient(from 90deg, red,orange,yellow,green,purple,blue);
+    }
+    .donut{
+        height: 300px;
+        background:conic-gradient(from 90deg, red,orange,yellow,green,purple,blue);
+        border-radius: 50%;
+        mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 50%);
+        
+    }
+</style>
+
+</head>
+<body>
+    <div class="linear"><h1>I Love India</h1></div>
+    <hr>
+
+    <div class="radial">
+        <h1>I Love CSS</h1>
+        <img class="r_image" src="images/image7.jpg" alt="nature image"/>
+    </div>
+    <hr>
+<div class="conical"></div>
+<div class="donut"></div>
+
+</body>
+</html>
